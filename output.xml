@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20210615 20:55:08.659" rpa="false" schemaversion="2">
+<suite id="s1" name="Exercicios" source="C:\Users\gabri\Desktop\primexpert\tests\exercicios.robot">
+<test id="s1-t1" name="Cenario: Imprimir Dicionários">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.689" endtime="20210615 20:55:08.691"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.691" endtime="20210615 20:55:08.692"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.especie}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.692" endtime="20210615 20:55:08.693"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.raça}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.693" endtime="20210615 20:55:08.694"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.genero}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.694" endtime="20210615 20:55:08.695"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOAS.cor}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.695" endtime="20210615 20:55:08.696"/>
+</kw>
+<status status="PASS" starttime="20210615 20:55:08.689" endtime="20210615 20:55:08.696"/>
+</test>
+<test id="s1-t2" name="Cenario: Imprimir lista">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n ${FRUTA[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.697" endtime="20210615 20:55:08.698"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n ${FRUTA[1]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.698" endtime="20210615 20:55:08.698"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n ${FRUTA[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.699" endtime="20210615 20:55:08.699"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n ${FRUTA[3]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.700" endtime="20210615 20:55:08.701"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n ${FRUTA[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:55:08.701" endtime="20210615 20:55:08.702"/>
+</kw>
+<status status="PASS" starttime="20210615 20:55:08.697" endtime="20210615 20:55:08.703"/>
+</test>
+<doc>Aqui estarão presentes os Exercicios do Prime Experts
+focado em imersão com Roboto Framework</doc>
+<status status="PASS" starttime="20210615 20:55:08.660" endtime="20210615 20:55:08.705"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Exercicios">Exercicios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
